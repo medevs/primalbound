@@ -1,5 +1,3 @@
 # Primal Bound Blog
 
-### Credid
-
-© [Timothy Lin](https://www.timlrx.com)
+Credit © [Timothy Lin](https://www.timlrx.com)
