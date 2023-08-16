@@ -1,5 +1,5 @@
 # Primal Bound Blog
 
-## Licence
+### Credid
 
 © [Timothy Lin](https://www.timlrx.com)
