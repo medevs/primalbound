@@ -1,10 +1,10 @@
 <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
   <!-- Circle -->
-  <circle cx="75" cy="75" r="35" fill="#ffA500" /> <!-- Orange color -->
+  <circle cx="75" cy="75" r="28" fill="#ffA500" /> <!-- Orange color -->
   
   <!-- Letter P -->
-  <text x="55" y="90" font-family="Cursive, sans-serif" font-size="40" fill="#ffffff">P</text>
+  <text x="55" y="90" font-family="Cursive, sans-serif" font-size="35" fill="#ffffff">P</text>
   
   <!-- Letter B -->
-  <text x="75" y="90" font-family="Cursive, sans-serif" font-size="40" fill="#ffffff">B</text>
+  <text x="72" y="90" font-family="Cursive, sans-serif" font-size="35" fill="#ffffff">B</text>
 </svg>
