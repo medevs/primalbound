@@ -13,8 +13,6 @@ export default function Head() {
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="google-site-verification" content="AZ01xCfd9heGiwgJw63HAlyMveDli8XLEcZQtp0KRKw" />
-
     </>
   )
 }
