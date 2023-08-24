@@ -14,7 +14,7 @@ const siteMetadata = {
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'oublihi.a@gmail.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter/primalbound',
+  twitter: 'https://twitter.com/primalbound',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
