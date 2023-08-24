@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'Primal Bound',
   author: 'Ahmed Amanar',
   headerTitle: 'Primal Bound',
-  description: 'Primal Bound, a movement dedicated to empowering young people and sharing knowledge on the topics that truly matter. we delve into the depths of purpose, family, relationships and well-being, uncovering the primal instincts.',
+  description:
+    'Primal Bound, a movement dedicated to empowering young people and sharing knowledge on the topics that truly matter. we delve into the depths of purpose, family, relationships and well-being, uncovering the primal instincts.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://primalbound.com',
@@ -13,7 +14,7 @@ const siteMetadata = {
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'oublihi.a@gmail.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  twitter: 'https://twitter.com/Twitter/primalbound',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',

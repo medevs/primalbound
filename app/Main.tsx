@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <section className="bg-transparent dark:bg-transparent text-black dark:text-white py-20">
+        <section className="bg-transparent dark:bg-transparent text-black dark:text-white py-10">
           <div className="container mx-auto text-center">
             <h1 className="text-4xl font-semibold mb-4">Welcome to Primal Bound</h1>
             <p className="text-lg mb-8">Discover the path to a healthier and happier life.</p>
