@@ -7,14 +7,26 @@ const CollapsibleTOC = (props) => {
 
   return (
     <div className="relative">
-      <div className="mb-2">
-        <button
-          className="p-2 bg-orange-500 text-black rounded-md"
-          onClick={() => setIsCollapsed(!isCollapsed)}
-        >
-          {isCollapsed ? 'Expand TOC' : 'Collapse TOC'}
-        </button>
-      </div>
+      <button
+        className="p-1 bg-orange-400 text-black rounded-full flex items-center"
+        onClick={() => setIsCollapsed(!isCollapsed)}
+      >
+        {isCollapsed ? (
+          <>
+            <span className="mr-1 text-sm" role="img" aria-label="Expand">
+              ➡️
+            </span>
+            <span className="text-xs">Expand</span>
+          </>
+        ) : (
+          <>
+            <span className="mr-1 text-sm" role="img" aria-label="Collapse">
+              ⬅️
+            </span>
+            <span className="text-xs">Collapse</span>
+          </>
+        )}
+      </button>
       {!isCollapsed && <TOCInline {...props} />}
     </div>
   )
