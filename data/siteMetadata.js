@@ -14,7 +14,7 @@ const siteMetadata = {
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'oublihi.a@gmail.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/primalbound',
+  twitter: 'https://twitter.com',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
@@ -72,6 +72,9 @@ const siteMetadata = {
       // This corresponds to the `data-lang="en"` in giscus's configurations
       lang: 'en',
     },
+  },
+  socialAccount: {
+    twitter: 'primalbound',
   },
   search: {
     provider: 'kbar', // kbar or algolia
