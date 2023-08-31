@@ -7,6 +7,7 @@ const CollapsibleTOC = (props) => {
 
   return (
     <div className="relative">
+      <h3>Table of content</h3>
       <button
         className="p-1 bg-orange-400 text-black rounded-full flex items-center"
         onClick={() => setIsCollapsed(!isCollapsed)}
@@ -14,14 +15,14 @@ const CollapsibleTOC = (props) => {
         {isCollapsed ? (
           <>
             <span className="mr-1 text-sm" role="img" aria-label="Expand">
-              ➡️
+              ⬇️
             </span>
             <span className="text-xs">Expand</span>
           </>
         ) : (
           <>
             <span className="mr-1 text-sm" role="img" aria-label="Collapse">
-              ⬅️
+              ⬆️
             </span>
             <span className="text-xs">Collapse</span>
           </>
