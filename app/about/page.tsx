@@ -78,13 +78,18 @@ export default function Page() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {topics.map((topic, index) => (
-              <div key={index} className="bg-white dark:bg-gray-900 rounded-lg shadow-lg">
+              <div
+                key={index}
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-lg transform transition-transform hover:scale-105"
+              >
                 <Link href={topic.link}>
-                  {/* <Image
+                  <Image
                     src={topic.imageUrl}
                     alt={topic.title}
-                    className="w-full h-48 object-cover rounded-t-lg"
-                  /> */}
+                    width={400}
+                    height={200}
+                    className="rounded-t-lg"
+                  />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">{topic.title}</h3>
                     <p className="text-gray-600 dark:text-gray-400">{topic.description}</p>
@@ -100,13 +105,18 @@ export default function Page() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {authors.map((author, index) => (
-              <div key={index} className="bg-white dark:bg-gray-900 rounded-lg shadow-lg">
+              <div
+                key={index}
+                className="bg-white dark:bg-gray-900 rounded-lg shadow-lg transform transition-transform hover:scale-105"
+              >
                 <div className="p-4">
-                  {/* <Image
+                  <Image
                     src={author.imageUrl}
                     alt={author.name}
-                    className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
-                  /> */}
+                    width={128}
+                    height={128}
+                    className="rounded-full mx-auto mb-4"
+                  />
                   <h3 className="text-xl font-semibold mb-2">{author.name}</h3>
                   <p className="text-gray-600 dark:text-gray-400">{author.bio}</p>
                 </div>
