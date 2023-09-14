@@ -55,21 +55,29 @@ export default function Page() {
   return (
     <div className="min-h-screen py-8">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl font-semibold text-center mb-8">About Primal Bound</h1>
+        <h1 className="text-2xl font-semibold mb-8">What is Primal Bound?</h1>
 
-        <p className="text-center">
-          Primal Bound takes you on a transformative journey, delving into the intricacies of modern
-          life while reconnecting with the timeless wisdom of our primal past. We are more than just
-          a blog; we are a movement dedicated to empowering the young generation with knowledge,
-          inspiration, and practical guidance to navigate the complexities of contemporary life and
-          unleash their true potential.
+        <p>
+          In Primal Bound we want to take you on a transformative journey to reconnect with your
+          true self . Within each of us, there is a life purpose willing to be followed. In this
+          blog, we want to provide inspiration and practical guidance so that you rediscover your
+          unique life purpose. As we mentioned, this is a transformative blog for those who are
+          ready to endure a transformative journey.
+        </p>
+        <p>
+          By reading our posts, you will understand the power of letting go. There, you will find
+          inspiration and practical guidance to unleash your true potential and master your life
+          authentically.
         </p>
 
-        <p className="text-center mt-4">
-          Join us as we delve into the depths of purpose, family, relationships, and well-being,
-          uncovering the primal instincts that guide us. Through captivating articles, interactive
-          discussions, and practical insights, Primal Bound seeks to inspire and ignite the fire
-          within. Together, let's embrace our primal nature and create a community that fosters
+        <h1 className="text-2xl font-semibold my-8">How can Primal Bound help you?</h1>
+
+        <p className="mt-4">
+          Our blog posts will hopefully help you rethink your life purpose, your family, and
+          relationship standards linked to your emotional past. We believe that, by understanding
+          the origin of our limitations, we will have control over your thoughts and you will create
+          a reality that resonates with you. Follow our most recent articles, interactive
+          discussions, and practical insights, and embrace your primal nature on your way to
           fulfillment, authenticity, and growth.
         </p>
 
